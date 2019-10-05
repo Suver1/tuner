@@ -1,0 +1,14 @@
+{
+  "name": "tuner",
+  "version": "1.0.0",
+  "description": "Tuner for music instruments",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas Hellesvik",
+  "license": "ISC",
+  "dependencies": {
+    "p5": "^0.9.0"
+  }
+}
