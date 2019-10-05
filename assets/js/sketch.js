@@ -48,6 +48,11 @@ function startListening() {
     mic.start(listening)
 }
 
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight)
+    startBtn.position(width/2-startBtnWidth/2, height/2-startBtnHeight/2)
+}
+
 function draw() {
     background(bg)
 }
